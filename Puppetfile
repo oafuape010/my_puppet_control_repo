@@ -15,3 +15,51 @@ forge "http://forge.puppetlabs.com"
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
+
+mod 'concat',
+   :git    => 'git@github.pwc.com:Puppet/concat.git',
+   :branch => 'master'
+
+mod 'dnsclient',
+   :git    => 'git@github.pwc.com:Puppet/dnsclient.git',
+   :branch => 'master'
+
+mod 'ntp',
+   :git    => 'git@github.pwc.com:Puppet/ntp.git',
+   :branch => 'master'
+
+mod 'pwcadmin',
+   :git    => 'git@github.pwc.com:Puppet/pwcadmin.git',
+   :branch => 'master'
+
+mod 'pwcbash',
+   :git    => 'git@github.pwc.com:Puppet/pwcbash.git',
+   :branch => 'master'
+
+mod 'pwcdump',
+   :git    => 'git@github.pwc.com:Puppet/pwcdump.git',
+   :branch => 'master'
+
+mod 'pwcgrub',
+   :git    => 'git@github.pwc.com:Puppet/pwcgrub.git',
+   :branch => 'master'
+
+mod 'pwcissue',
+   :git    => 'git@github.pwc.com:Puppet/pwcissue.git',
+   :branch => 'master'
+
+mod 'pwcresolver',
+   :git    => 'git@github.pwc.com:Puppet/pwcresolver.git',
+   :branch => 'master'
+
+mod 'pwcsecfiles',
+   :git    => 'git@github.pwc.com:Puppet/pwcsecfiles.git',
+   :branch => 'master'
+
+mod 'pwcsudo',
+   :git    => 'git@github.pwc.com:Puppet/pwcsudo.git',
+   :branch => 'master'
+
+mod 'stdlib',
+   :git    => 'git@github.pwc.com:Puppet/stdlib.git',
+   :branch => 'master'
