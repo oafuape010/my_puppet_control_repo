@@ -11,9 +11,19 @@
 
 ## Active Configurations ##
 
-# Disable filebucket by default for all File resources:
-#http://docs.puppetlabs.com/pe/latest/release_notes.html#filebucket-resource-no-longer-created-by-default
-File { backup => false }
+# PRIMARY FILEBUCKET
+# This configures puppet agent and puppet inspect to back up file contents when
+# they run. The Puppet Enterprise console needs this to display file contents
+# and differences.
+
+# Define filebucket 'main':
+filebucket { 'main':
+  server => 'tdavdc2.nam.pwcinternal.com',
+  path   => false,
+}
+
+# Make filebucket 'main' the default backup location for all File resources:
+File { backup => 'main' }
 
 # DEFAULT NODE
 # Node definitions in this file are merged with node data from the console. See
@@ -30,3 +40,4 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
+
