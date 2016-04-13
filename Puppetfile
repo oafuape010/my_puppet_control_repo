@@ -20,6 +20,10 @@ mod 'concat',
    :git    => 'git@github.pwc.com:Puppet/concat.git',
    :branch => 'master'
 
+mod 'pwckerberos',
+   :git    => 'git@github.pwc.com:Puppet/pwckerberos.git',
+   :branch => 'master'
+
 mod 'dnsclient',
    :git    => 'git@github.pwc.com:Puppet/dnsclient.git',
    :branch => 'master'
