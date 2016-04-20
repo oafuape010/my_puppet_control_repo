@@ -16,6 +16,10 @@ forge "http://forge.puppetlabs.com"
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
 
+mod 'pwcpatch',
+   :git    => 'git@github.pwc.com:Puppet/pwcpatch.git',
+   :branch => 'master'
+
 mod 'concat',
    :git    => 'git@github.pwc.com:Puppet/concat.git',
    :branch => 'master'
