@@ -18,7 +18,7 @@
 
 # Define filebucket 'main':
 filebucket { 'main':
-  server => 'tdavdc2.nam.pwcinternal.com',
+  # server => 'tdavdc2.nam.pwcinternal.com', # defaults to the configured puppet master
   path   => false,
 }
 
