@@ -18,10 +18,10 @@ mod 'puppetlabs/stdlib', '4.12.0'
 mod 'puppetlabs/transition', '0.1.0'
 mod 'pwcprofiles',
   :git    => 'git@github.pwc.com:Puppet/pwcprofiles.git',
-  :branch => 'test'
+  :branch => 'production'
 mod 'pwcseccore',
   :git    => 'git@github.pwc.com:Puppet/pwcsecfiles.git',
-  :branch => 'test'
+  :branch => 'production'
 mod 'pwcpatch',
   :git    => 'git@github.pwc.com:Puppet/pwcpatch.git',
-  :branch => 'test'
+  :branch => 'production'
