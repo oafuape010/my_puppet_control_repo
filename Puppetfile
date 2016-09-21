@@ -22,7 +22,7 @@ mod 'pwcprofiles',
   :git    => 'git@github.pwc.com:Puppet/pwcprofiles.git',
   :branch => 'production'
 mod 'pwcseccore',
-  :git    => 'git@github.pwc.com:Puppet/pwcsecfiles.git',
+  :git    => 'git@github.pwc.com:Puppet/pwcseccore.git',
   :branch => 'production'
 mod 'pwcpatch',
   :git    => 'git@github.pwc.com:Puppet/pwcpatch.git',
