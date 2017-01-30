@@ -24,6 +24,9 @@ mod 'pwcprofiles',
 mod 'pwcseccore',
   :git    => 'git@github.pwc.com:Puppet/pwcseccore.git',
   :branch => 'production'
+mod 'pwcfirewall',
+  :git    => 'git@github.pwc.com:Puppet/pwcfirewall.git',
+  :branch => 'test'
 mod 'pwcpatch',
   :git    => 'git@github.pwc.com:Puppet/pwcpatch.git',
   :branch => 'production'
