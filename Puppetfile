@@ -33,6 +33,6 @@ mod 'pwcpatch',
 mod 'pwcpupmaster',
   :git    => 'git@github.pwc.com:Puppet/pwcpupmaster.git',
   :branch => 'production'
-mod 'pilotpatch',
-  :git    => 'git@github.pwc.com:Puppet/pilotpatch.git',
+mod 'pwcreposvr',
+  :git    => 'git@github.pwc.com:Puppet/pwcreposvr.git',
   :branch => 'production'
