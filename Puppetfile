@@ -36,3 +36,6 @@ mod 'pwcpupmaster',
 mod 'pwcreposvr',
   :git    => 'git@github.pwc.com:Puppet/pwcreposvr.git',
   :branch => 'production'
+mod 'pwcqualys',
+  :git    => 'git@github.pwc.com:Puppet/pwcqualys.git',
+  :branch => 'production'
