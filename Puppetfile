@@ -15,7 +15,7 @@ mod 'puppetlabs/firewall', '1.8.1'
 mod 'puppetlabs/inifile', '1.5.0'
 mod 'puppetlabs/ntp', '4.2.0'
 mod 'lightoze/pkginventory', '0.0.4'
-mod 'puppetlabs/puppet_agent', '1.3.0'
+mod 'puppetlabs/puppet_agent', '1.3.2'
 mod 'puppetlabs/stdlib', '4.12.0'
 mod 'puppetlabs/transition', '0.1.0'
 mod 'pwcprofiles',
