@@ -42,3 +42,6 @@ mod 'pwcqualys',
 mod 'pwcdns',
   :git    => 'git@github.pwc.com:Puppet/pwcdns.git',
   :branch => 'production'
+mod 'pwcnetwork',
+  :git    => 'git@github.pwc.com:Puppet/pwcnetwork.git',
+  :branch => 'production'
