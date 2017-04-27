@@ -51,9 +51,6 @@ mod 'pwcntp',
 mod 'pwcwaagent',
   :git    => 'git@github.pwc.com:Puppet/pwcwaagent.git',
   :branch => 'production'
-mod 'pwcdns',
-  :git    => 'git@github.pwc.com:Puppet/pwcdns.git',
-  :branch => 'production'
 mod 'pwcazuredisk',
   :git    => 'git@github.pwc.com:Puppet/pwcazuredisk.git',
   :branch => 'production'
