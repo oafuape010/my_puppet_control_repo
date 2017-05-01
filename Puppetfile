@@ -39,3 +39,18 @@ mod 'pwcreposvr',
 mod 'pwcqualys',
   :git    => 'git@github.pwc.com:Puppet/pwcqualys.git',
   :branch => 'production'
+mod 'pwcdns',
+  :git    => 'git@github.pwc.com:Puppet/pwcdns.git',
+  :branch => 'production'
+mod 'pwcnetwork',
+  :git    => 'git@github.pwc.com:Puppet/pwcnetwork.git',
+  :branch => 'production'
+mod 'pwcntp',
+  :git    => 'git@github.pwc.com:Puppet/pwcntp.git',
+  :branch => 'production'
+mod 'pwcwaagent',
+  :git    => 'git@github.pwc.com:Puppet/pwcwaagent.git',
+  :branch => 'production'
+mod 'pwcazuredisk',
+  :git    => 'git@github.pwc.com:Puppet/pwcazuredisk.git',
+  :branch => 'production'
