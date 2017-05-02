@@ -54,3 +54,6 @@ mod 'pwcwaagent',
 mod 'pwcazuredisk',
   :git    => 'git@github.pwc.com:Puppet/pwcazuredisk.git',
   :branch => 'production'
+mod 'pwcscom',
+  :git    => 'git@github.pwc.com:Puppet/pwcscom.git',
+  :branch => 'production'
