@@ -57,3 +57,6 @@ mod 'pwcazuredisk',
 mod 'pwcscom',
   :git    => 'git@github.pwc.com:Puppet/pwcscom.git',
   :branch => 'production'
+mod 'newcylance',
+  :git    => 'git@github.pwc.com:Puppet/newcylance.git',
+  :branch => 'production'
