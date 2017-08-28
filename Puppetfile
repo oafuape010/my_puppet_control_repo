@@ -60,3 +60,6 @@ mod 'pwcscom',
 mod 'newcylance',
   :git    => 'git@github.pwc.com:Puppet/newcylance.git',
   :branch => 'production'
+mod 'newpatch',
+  :git    => 'git@github.pwc.com:Puppet/newpatch.git',
+  :branch => 'production'
