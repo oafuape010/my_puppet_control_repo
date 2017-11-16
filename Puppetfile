@@ -19,48 +19,48 @@ mod 'puppetlabs/puppet_agent', '1.4.1'
 mod 'puppetlabs/stdlib', '4.21.0'
 mod 'puppetlabs/transition', '0.1.1'
 mod 'puppetlabs/lvm', '1.0.0'
-mod 'pwcprofiles',
-  :git    => 'git@github.pwc.com:Puppet/pwcprofiles.git',
-  :branch => 'dev_explore'
+#mod 'pwcprofiles',
+#  :git    => 'git@github.pwc.com:Puppet/pwcprofiles.git',
+#  :branch => 'dev_explore'
 mod 'pwcseccore',
   :git    => 'git@github.pwc.com:Puppet/pwcseccore.git',
   :branch => 'dev_explore'
-mod 'pwcfirewall',
-  :git    => 'git@github.pwc.com:Puppet/pwcfirewall.git',
-  :branch => 'dev_explore'
-mod 'pwcpatch',
-  :git    => 'git@github.pwc.com:Puppet/pwcpatch.git',
-  :branch => 'dev_explore'
-mod 'pwcpupmaster',
-  :git    => 'git@github.pwc.com:Puppet/pwcpupmaster.git',
-  :branch => 'dev_explore'
-mod 'pwcreposvr',
-  :git    => 'git@github.pwc.com:Puppet/pwcreposvr.git',
-  :branch => 'dev_explore'
-mod 'pwcqualys',
-  :git    => 'git@github.pwc.com:Puppet/pwcqualys.git',
-  :branch => 'dev_explore'
-mod 'pwcdns',
-  :git    => 'git@github.pwc.com:Puppet/pwcdns.git',
-  :branch => 'dev_explore'
-mod 'pwcnetwork',
-  :git    => 'git@github.pwc.com:Puppet/pwcnetwork.git',
-  :branch => 'dev_explore'
-mod 'pwcntp',
-  :git    => 'git@github.pwc.com:Puppet/pwcntp.git',
-  :branch => 'dev_explore'
-mod 'pwcwaagent',
-  :git    => 'git@github.pwc.com:Puppet/pwcwaagent.git',
-  :branch => 'dev_explore'
-mod 'pwcazuredisk',
-  :git    => 'git@github.pwc.com:Puppet/pwcazuredisk.git',
-  :branch => 'dev_explore'
-mod 'pwcscom',
-  :git    => 'git@github.pwc.com:Puppet/pwcscom.git',
-  :branch => 'dev_explore'
-mod 'newcylance',
-  :git    => 'git@github.pwc.com:Puppet/newcylance.git',
-  :branch => 'dev_explore'
-mod 'newpatch',
-  :git    => 'git@github.pwc.com:Puppet/newpatch.git',
-  :branch => 'dev_explore'
+#mod 'pwcfirewall',
+#  :git    => 'git@github.pwc.com:Puppet/pwcfirewall.git',
+#  :branch => 'dev_explore'
+#mod 'pwcpatch',
+#  :git    => 'git@github.pwc.com:Puppet/pwcpatch.git',
+#  :branch => 'dev_explore'
+#mod 'pwcpupmaster',
+#  :git    => 'git@github.pwc.com:Puppet/pwcpupmaster.git',
+#  :branch => 'dev_explore'
+#mod 'pwcreposvr',
+#  :git    => 'git@github.pwc.com:Puppet/pwcreposvr.git',
+#  :branch => 'dev_explore'
+#mod 'pwcqualys',
+#  :git    => 'git@github.pwc.com:Puppet/pwcqualys.git',
+#  :branch => 'dev_explore'
+#mod 'pwcdns',
+#  :git    => 'git@github.pwc.com:Puppet/pwcdns.git',
+#  :branch => 'dev_explore'
+#mod 'pwcnetwork',
+#  :git    => 'git@github.pwc.com:Puppet/pwcnetwork.git',
+#  :branch => 'dev_explore'
+#mod 'pwcntp',
+#  :git    => 'git@github.pwc.com:Puppet/pwcntp.git',
+#  :branch => 'dev_explore'
+#mod 'pwcwaagent',
+#  :git    => 'git@github.pwc.com:Puppet/pwcwaagent.git',
+#  :branch => 'dev_explore'
+#mod 'pwcazuredisk',
+#  :git    => 'git@github.pwc.com:Puppet/pwcazuredisk.git',
+#  :branch => 'dev_explore'
+#mod 'pwcscom',
+#  :git    => 'git@github.pwc.com:Puppet/pwcscom.git',
+#  :branch => 'dev_explore'
+#mod 'newcylance',
+#  :git    => 'git@github.pwc.com:Puppet/newcylance.git',
+#  :branch => 'dev_explore'
+#mod 'newpatch',
+#  :git    => 'git@github.pwc.com:Puppet/newpatch.git',
+#  :branch => 'dev_explore'
