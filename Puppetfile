@@ -2,7 +2,7 @@ forge "http://forge.puppetlabs.com"
 
 #mod 'apt',
 #  :git    => 'git@10.142.0.4:puppet/apt.git',
-#  :branch => 'production'
+#  :branch => 'dev_explore'
 
 mod 'puppetlabs/apt', '4.3.0'
 mod 'herculesteam/augeasproviders_grub', '3.0.0'
@@ -21,46 +21,46 @@ mod 'puppetlabs/transition', '0.1.1'
 mod 'puppetlabs/lvm', '1.0.0'
 mod 'pwcprofiles',
   :git    => 'git@github.pwc.com:Puppet/pwcprofiles.git',
-  :branch => 'production'
+  :branch => 'dev_explore'
 mod 'pwcseccore',
   :git    => 'git@github.pwc.com:Puppet/pwcseccore.git',
-  :branch => 'production'
+  :branch => 'dev_explore'
 mod 'pwcfirewall',
   :git    => 'git@github.pwc.com:Puppet/pwcfirewall.git',
-  :branch => 'production'
+  :branch => 'dev_explore'
 mod 'pwcpatch',
   :git    => 'git@github.pwc.com:Puppet/pwcpatch.git',
-  :branch => 'production'
+  :branch => 'dev_explore'
 mod 'pwcpupmaster',
   :git    => 'git@github.pwc.com:Puppet/pwcpupmaster.git',
-  :branch => 'production'
+  :branch => 'dev_explore'
 mod 'pwcreposvr',
   :git    => 'git@github.pwc.com:Puppet/pwcreposvr.git',
-  :branch => 'production'
+  :branch => 'dev_explore'
 mod 'pwcqualys',
   :git    => 'git@github.pwc.com:Puppet/pwcqualys.git',
-  :branch => 'production'
+  :branch => 'dev_explore'
 mod 'pwcdns',
   :git    => 'git@github.pwc.com:Puppet/pwcdns.git',
-  :branch => 'production'
+  :branch => 'dev_explore'
 mod 'pwcnetwork',
   :git    => 'git@github.pwc.com:Puppet/pwcnetwork.git',
-  :branch => 'production'
+  :branch => 'dev_explore'
 mod 'pwcntp',
   :git    => 'git@github.pwc.com:Puppet/pwcntp.git',
-  :branch => 'production'
+  :branch => 'dev_explore'
 mod 'pwcwaagent',
   :git    => 'git@github.pwc.com:Puppet/pwcwaagent.git',
-  :branch => 'production'
+  :branch => 'dev_explore'
 mod 'pwcazuredisk',
   :git    => 'git@github.pwc.com:Puppet/pwcazuredisk.git',
-  :branch => 'production'
+  :branch => 'dev_explore'
 mod 'pwcscom',
   :git    => 'git@github.pwc.com:Puppet/pwcscom.git',
-  :branch => 'production'
+  :branch => 'dev_explore'
 mod 'newcylance',
   :git    => 'git@github.pwc.com:Puppet/newcylance.git',
-  :branch => 'production'
+  :branch => 'dev_explore'
 mod 'newpatch',
   :git    => 'git@github.pwc.com:Puppet/newpatch.git',
-  :branch => 'production'
+  :branch => 'dev_explore'
