@@ -55,9 +55,9 @@ mod 'pwcqualys',
 #mod 'pwcazuredisk',
 #  :git    => 'git@github.pwc.com:Puppet/pwcazuredisk.git',
 #  :branch => 'dev_explore'
-#mod 'pwcscom',
-#  :git    => 'git@github.pwc.com:Puppet/pwcscom.git',
-#  :branch => 'dev_explore'
+mod 'pwcscom',
+  :git    => 'git@github.pwc.com:Puppet/pwcscom.git',
+  :branch => 'dev_explore'
 #mod 'newcylance',
 #  :git    => 'git@github.pwc.com:Puppet/newcylance.git',
 #  :branch => 'dev_explore'
