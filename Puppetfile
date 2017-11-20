@@ -19,9 +19,9 @@ mod 'puppetlabs/puppet_agent', '1.4.1'
 mod 'puppetlabs/stdlib', '4.21.0'
 mod 'puppetlabs/transition', '0.1.1'
 mod 'puppetlabs/lvm', '1.0.0'
-#mod 'pwcprofiles',
-#  :git    => 'git@github.pwc.com:Puppet/pwcprofiles.git',
-#  :branch => 'dev_explore'
+mod 'pwcprofiles',
+  :git    => 'git@github.pwc.com:Puppet/pwcprofiles.git',
+  :branch => 'dev_explore'
 mod 'pwcseccore',
   :git    => 'git@github.pwc.com:Puppet/pwcseccore.git',
   :branch => 'dev_explore'
