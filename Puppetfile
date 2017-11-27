@@ -40,9 +40,9 @@ mod 'pwcseccore',
 mod 'pwcqualys',
   :git    => 'git@github.pwc.com:Puppet/pwcqualys.git',
   :branch => 'dev_explore'
-#mod 'pwcdns',
-#  :git    => 'git@github.pwc.com:Puppet/pwcdns.git',
-#  :branch => 'dev_explore'
+mod 'pwcdns',
+  :git    => 'git@github.pwc.com:Puppet/pwcdns.git',
+  :branch => 'dev_explore'
 #mod 'pwcnetwork',
 #  :git    => 'git@github.pwc.com:Puppet/pwcnetwork.git',
 #  :branch => 'dev_explore'
