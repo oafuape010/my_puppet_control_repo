@@ -1,9 +1,5 @@
 forge "http://forge.puppetlabs.com"
 
-#mod 'apt',
-#  :git    => 'git@10.142.0.4:puppet/apt.git',
-#  :branch => 'dev_explore'
-
 mod 'puppetlabs/apt', '4.4.1'
 mod 'herculesteam/augeasproviders_grub', '3.0.0'
 mod 'herculesteam/augeasproviders_core', '2.1.4'
