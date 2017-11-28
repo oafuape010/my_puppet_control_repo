@@ -15,10 +15,10 @@ mod 'puppetlabs/puppet_agent', '1.4.1'
 mod 'puppetlabs/stdlib', '4.23.0'
 mod 'puppetlabs/transition', '0.1.1'
 mod 'puppetlabs/lvm', '1.0.0'
-#mod 'rtyler/jenkins', '1.7.0'
-#mod 'puppetlabs/java', '2.2.0',
-#mod 'darin/zypprrepo', '1.0.2',
-#mod 'puppet/archive', '2.2.0',
+mod 'rtyler/jenkins', '1.7.0'
+mod 'puppetlabs/java', '2.2.0',
+mod 'darin/zypprepo', '1.0.2',
+mod 'puppet/archive', '2.2.0',
 mod 'pwcprofiles',
   :git    => 'git@github.pwc.com:Puppet/pwcprofiles.git',
   :branch => 'dev_explore'
