@@ -64,3 +64,6 @@ mod 'pwcscom',
 #mod 'newpatch',
 #  :git    => 'git@github.pwc.com:Puppet/newpatch.git',
 #  :branch => 'dev_explore'
+mod 'newqualys',
+  :git    => 'git@github.pwc.com:Puppet/newqualys.git',
+  :branch => 'dev_explore'
