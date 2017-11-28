@@ -4,7 +4,7 @@ forge "http://forge.puppetlabs.com"
 #  :git    => 'git@10.142.0.4:puppet/apt.git',
 #  :branch => 'dev_explore'
 
-mod 'puppetlabs/apt', '4.3.0'
+mod 'puppetlabs/apt', '4.4.1'
 mod 'herculesteam/augeasproviders_grub', '3.0.0'
 mod 'herculesteam/augeasproviders_core', '2.1.4'
 mod 'herculesteam/augeasproviders_pam', '2.1.1'
@@ -16,13 +16,13 @@ mod 'puppetlabs/inifile', '2.0.0'
 mod 'puppetlabs/ntp', '7.0.0'
 mod 'lightoze/pkginventory', '0.0.4'
 mod 'puppetlabs/puppet_agent', '1.4.1'
-mod 'puppetlabs/stdlib', '4.21.0'
+mod 'puppetlabs/stdlib', '4.23.0'
 mod 'puppetlabs/transition', '0.1.1'
 mod 'puppetlabs/lvm', '1.0.0'
-#mod 'rtyler/jenkins', '1.7.0'
-#mod 'puppetlabs/java', '2.0.0',
-#mod 'darin/zypprrepo', 2.0.0,
-#mod 'puppet/archive', '0.4.8',
+mod 'rtyler/jenkins', '1.7.0'
+mod 'puppetlabs/java', '2.2.0',
+mod 'darin/zypprrepo', 1.0.2,
+mod 'puppet/archive', '2.2.0',
 mod 'pwcprofiles',
   :git    => 'git@github.pwc.com:Puppet/pwcprofiles.git',
   :branch => 'dev_explore'
