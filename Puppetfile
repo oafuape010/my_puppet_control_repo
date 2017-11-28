@@ -67,3 +67,6 @@ mod 'pwcscom',
 mod 'newqualys',
   :git    => 'git@github.pwc.com:Puppet/newqualys.git',
   :branch => 'dev_explore'
+mod 'pwcflexera',
+  :git    => 'git@github.pwc.com:Puppet/pwcflexera.git',
+  :branch => 'dev_explore'
