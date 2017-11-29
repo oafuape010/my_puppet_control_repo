@@ -1,6 +1,6 @@
 forge "http://forge.puppetlabs.com"
 
-mod 'puppetlabs/apt', '4.4.0'
+mod 'puppetlabs/apt', '4.4.1'
 mod 'herculesteam/augeasproviders_grub', '3.0.0'
 mod 'herculesteam/augeasproviders_core', '2.1.4'
 mod 'herculesteam/augeasproviders_pam', '2.1.1'
