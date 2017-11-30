@@ -46,9 +46,9 @@ mod 'pwcdns',
 #mod 'pwcnetwork',
 #  :git    => 'git@github.pwc.com:Puppet/pwcnetwork.git',
 #  :branch => 'dev_explore'
-#mod 'pwcntp',
-#  :git    => 'git@github.pwc.com:Puppet/pwcntp.git',
-#  :branch => 'dev_explore'
+mod 'pwcntp',
+  :git    => 'git@github.pwc.com:Puppet/pwcntp.git',
+  :branch => 'dev_explore'
 #mod 'pwcwaagent',
 #  :git    => 'git@github.pwc.com:Puppet/pwcwaagent.git',
 #  :branch => 'dev_explore'
