@@ -49,9 +49,9 @@ mod 'pwcnetwork',
 mod 'pwcntp',
   :git    => 'git@github.pwc.com:Puppet/pwcntp.git',
   :branch => 'dev_explore'
-#mod 'pwcwaagent',
-#  :git    => 'git@github.pwc.com:Puppet/pwcwaagent.git',
-#  :branch => 'dev_explore'
+mod 'pwcwaagent',
+  :git    => 'git@github.pwc.com:Puppet/pwcwaagent.git',
+  :branch => 'dev_explore'
 #mod 'pwcazuredisk',
 #  :git    => 'git@github.pwc.com:Puppet/pwcazuredisk.git',
 #  :branch => 'dev_explore'
