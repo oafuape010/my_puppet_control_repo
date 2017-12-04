@@ -31,12 +31,12 @@ mod 'pwcfirewall',
 #mod 'pwcpatch',
 #  :git    => 'git@github.pwc.com:Puppet/pwcpatch.git',
 #  :branch => 'dev_explore'
-#mod 'pwcpupmaster',
-#  :git    => 'git@github.pwc.com:Puppet/pwcpupmaster.git',
-#  :branch => 'dev_explore'
-#mod 'pwcreposvr',
-#  :git    => 'git@github.pwc.com:Puppet/pwcreposvr.git',
-#  :branch => 'dev_explore'
+mod 'pwcpupmaster',
+  :git    => 'git@github.pwc.com:Puppet/pwcpupmaster.git',
+  :branch => 'dev_explore'
+mod 'pwcreposvr',
+  :git    => 'git@github.pwc.com:Puppet/pwcreposvr.git',
+  :branch => 'dev_explore'
 #mod 'pwcqualys',
 #  :git    => 'git@github.pwc.com:Puppet/pwcqualys.git',
 #  :branch => 'dev_explore'
