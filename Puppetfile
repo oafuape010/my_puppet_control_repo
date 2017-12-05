@@ -37,9 +37,9 @@ mod 'pwcpupmaster',
 mod 'pwcreposvr',
   :git    => 'git@github.pwc.com:Puppet/pwcreposvr.git',
   :branch => 'dev_explore'
-#mod 'pwcqualys',
-#  :git    => 'git@github.pwc.com:Puppet/pwcqualys.git',
-#  :branch => 'dev_explore'
+mod 'pwcqualys',
+  :git    => 'git@github.pwc.com:Puppet/pwcqualys.git',
+  :branch => 'dev_explore'
 mod 'pwcdns',
   :git    => 'git@github.pwc.com:Puppet/pwcdns.git',
   :branch => 'dev_explore'
@@ -64,9 +64,6 @@ mod 'pwcscom',
 #mod 'newpatch',
 #  :git    => 'git@github.pwc.com:Puppet/newpatch.git',
 #  :branch => 'dev_explore'
-mod 'newqualys',
-  :git    => 'git@github.pwc.com:Puppet/newqualys.git',
-  :branch => 'dev_explore'
 mod 'pwcflexera',
   :git    => 'git@github.pwc.com:Puppet/pwcflexera.git',
   :branch => 'dev_explore'
