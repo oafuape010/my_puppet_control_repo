@@ -67,3 +67,6 @@ mod 'pwcscom',
 mod 'pwcflexera',
   :git    => 'git@github.pwc.com:Puppet/pwcflexera.git',
   :branch => 'dev_explore'
+mod 'jenkins-installation',
+  :git    => 'git@github.pwc.com:Puppet/jenkins-installation.git',
+  :branch => 'dev_explore'
