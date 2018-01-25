@@ -28,9 +28,9 @@ mod 'pwcseccore',
 mod 'pwcfirewall',
   :git    => 'git@github.pwc.com:Puppet/pwcfirewall.git',
   :branch => 'dev_explore'
-#mod 'pwcpatch',
-#  :git    => 'git@github.pwc.com:Puppet/pwcpatch.git',
-#  :branch => 'dev_explore'
+mod 'pwcpatch',
+  :git    => 'git@github.pwc.com:Puppet/pwcpatch.git',
+  :branch => 'dev_explore'
 mod 'pwcpupmaster',
   :git    => 'git@github.pwc.com:Puppet/pwcpupmaster.git',
   :branch => 'dev_explore'
