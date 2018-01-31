@@ -67,9 +67,6 @@ mod 'jenkinsariso001a',
 mod 'pwcawscli',
   :git    => 'git@github.pwc.com:Puppet/pwcawscli.git',
   :branch => 'dev_explore'
-mod 'pwcawslogs',
-  :git    => 'git@github.pwc.com:Puppet/pwcawslogs.git',
-  :branch => 'dev_explore'
 mod 'pwcawsmonitoring',
   :git    => 'git@github.pwc.com:Puppet/pwcawsmonitoring.git',
   :branch => 'dev_explore'
