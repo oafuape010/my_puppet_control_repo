@@ -58,15 +58,18 @@ mod 'pwcazuredisk',
 mod 'pwcscom',
   :git    => 'git@github.pwc.com:Puppet/pwcscom.git',
   :branch => 'dev_explore'
-#mod 'newcylance',
-#  :git    => 'git@github.pwc.com:Puppet/newcylance.git',
-#  :branch => 'dev_explore'
-#mod 'newpatch',
-#  :git    => 'git@github.pwc.com:Puppet/newpatch.git',
-#  :branch => 'dev_explore'
 mod 'pwcflexera',
   :git    => 'git@github.pwc.com:Puppet/pwcflexera.git',
   :branch => 'dev_explore'
 mod 'jenkinsariso001a',
   :git    => 'git@github.pwc.com:Puppet/jenkinsariso001a.git',
+  :branch => 'dev_explore'
+mod 'pwcawscli',
+  :git    => 'git@github.pwc.com:Puppet/pwcawscli.git',
+  :branch => 'dev_explore'
+mod 'pwcawslogs',
+  :git    => 'git@github.pwc.com:Puppet/pwcawslogs.git',
+  :branch => 'dev_explore'
+mod 'pwcawsmonitoring',
+  :git    => 'git@github.pwc.com:Puppet/pwcawsmonitoring.git',
   :branch => 'dev_explore'
