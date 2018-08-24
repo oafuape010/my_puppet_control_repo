@@ -2,7 +2,8 @@
 pwchieratest::ssl: maybe
 pwchieratest::backups_enabled: true
 
-pwcseccore::allow_ssh_hosts: 'sshd:   10.0.0.0/255.0.0.0'
+#pwcseccore::allow_ssh_hosts: 'sshd:   10.0.0.0/255.0.0.0'
+pwcseccore::allow_ssh_hosts: 'sshd:   10.0.0.0/255.0.0.0 155.201.34.0/255.255.255.0 155.201.35.0/255.255.255.0'
 
 pwcsplunk::region: 'west'
 pwcsplunk::heavyforwarderahs: '172.21.8.38'
