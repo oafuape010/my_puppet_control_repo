@@ -1,0 +1,4 @@
+---
+# pwchieratest::site_alias: 'test site'
+
+pwcseccore::allow_ssh_hosts: 'sshd:   10.0.0.0/255.0.0.0 155.201.0.0/255.255.0.0'
