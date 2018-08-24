@@ -5,7 +5,7 @@ message: "This node is using common data"
 puppet_enterprise::master::puppetserver::jruby_max_requests_per_instance: 0
 #
 # Row 8 increases the size of Code Manager’s default worker pool
-# puppet_enterprise::master::code_manager::deploy_pool_size: 4
+puppet_enterprise::master::code_manager::deploy_pool_size: 4
 #
 # Row 9 Reduces the maximum time allowed for deploying a single environment
-# puppet_enterprise::master::code_manager::timeouts_deploy: 300
+puppet_enterprise::master::code_manager::timeouts_deploy: 300
