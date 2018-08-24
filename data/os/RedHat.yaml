@@ -1,0 +1,11 @@
+---
+pwchieratest::backups_enabled: false
+
+pwcsplunk::splunkgroup: 'splunker'
+pwcsplunk::splunkgroupid: '9980'
+pwcsplunk::splunkuser: 'splunker'
+pwcsplunk::splunkuserid: '9980'
+pwcsplunk::splunkhome: '/opt/splunkforwarder'
+pwcsplunk::boot_enable: '/opt/splunkforwarder/bin/splunk enable boot-start -user'
+pwcsplunk::daemon_start_pre: 'su -'
+pwcsplunk::daemon_start_post: "'-c /opt/splunkforwarder/bin/splunk start --accept-license --answer-yes --no-prompt'"
