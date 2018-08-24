@@ -24,52 +24,52 @@ mod 'puppetlabs-ruby', '1.0.0'
 mod 'puppetlabs-puppetserver_gem', '1.0.0'
 mod 'pwcprofiles',
   :git    => 'git@github.pwc.com:Puppet/pwcprofiles.git',
-  :branch => 'dev_explore'
+  :branch => 'explore_bob'
 mod 'pwcseccore',
   :git    => 'git@github.pwc.com:Puppet/pwcseccore.git',
-  :branch => 'dev_explore'
+  :branch => 'explore_bob'
 mod 'pwcfirewall',
   :git    => 'git@github.pwc.com:Puppet/pwcfirewall.git',
   :branch => 'dev_explore'
 mod 'pwcpatch',
   :git    => 'git@github.pwc.com:Puppet/pwcpatch.git',
-  :branch => 'dev_explore'
+  :branch => 'explore_bob'
 mod 'pwcpupmaster',
   :git    => 'git@github.pwc.com:Puppet/pwcpupmaster.git',
-  :branch => 'dev_explore'
+  :branch => 'explore_bob'
 mod 'pwcreposvr',
   :git    => 'git@github.pwc.com:Puppet/pwcreposvr.git',
-  :branch => 'dev_explore'
+  :branch => 'explore_bob'
 mod 'pwcqualys',
   :git    => 'git@github.pwc.com:Puppet/pwcqualys.git',
-  :branch => 'dev_explore'
+  :branch => 'explore_bob'
 mod 'pwcdns',
   :git    => 'git@github.pwc.com:Puppet/pwcdns.git',
-  :branch => 'dev_explore'
+  :branch => 'explore_bob'
 mod 'pwcnetwork',
   :git    => 'git@github.pwc.com:Puppet/pwcnetwork.git',
-  :branch => 'dev_explore'
+  :branch => 'explore_bob'
 mod 'pwcntp',
   :git    => 'git@github.pwc.com:Puppet/pwcntp.git',
-  :branch => 'dev_explore'
+  :branch => 'explore_bob'
 mod 'pwcwaagent',
   :git    => 'git@github.pwc.com:Puppet/pwcwaagent.git',
-  :branch => 'dev_explore'
+  :branch => 'explore_bob'
 mod 'pwcazuredisk',
   :git    => 'git@github.pwc.com:Puppet/pwcazuredisk.git',
-  :branch => 'dev_explore'
+  :branch => 'explore_bob'
 mod 'pwcscom',
   :git    => 'git@github.pwc.com:Puppet/pwcscom.git',
-  :branch => 'dev_explore'
+  :branch => 'explore_bob'
 mod 'pwcflexera',
   :git    => 'git@github.pwc.com:Puppet/pwcflexera.git',
-  :branch => 'dev_explore'
+  :branch => 'explore_bob'
 mod 'jenkinsariso001a',
   :git    => 'git@github.pwc.com:Puppet/jenkinsariso001a.git',
-  :branch => 'dev_explore'
+  :branch => 'explore_bob'
 mod 'pwcawscli',
   :git    => 'git@github.pwc.com:Puppet/pwcawscli.git',
-  :branch => 'dev_explore'
+  :branch => 'explore_bob'
 mod 'pwcsplunk',
   :git    => 'git@github.pwc.com:Puppet/pwcsplunk.git',
-  :branch => 'dev_explore'
+  :branch => 'explore_bob'
