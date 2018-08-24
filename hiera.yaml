@@ -1,0 +1,38 @@
+---
+version: 5
+hierarchy:
+  - name: "Node specific data"
+    path: "nodes/%{trusted.certname}.yaml"
+    
+  - name: "Application environment specific data"
+    path: "environment/%{facts.pwcenv}.yaml"
+  
+  - name: "Data center specific data"
+    path: "datacenter/%{facts.pwcdatacenter}.yaml"
+    
+  - name: "Domain specific data"
+    path: "pwcdomain/%{facts.pwcdomain}.yaml"
+  
+  - name: "OS specific data"
+    path: "os/%{facts.os.family}.yaml"
+    
+  - name: "Common data"
+    path: "common.yaml"
+defaults:
+  data_hash: yaml_data
+  datadir: data
+  # For simplicity, keep this lookup as narrow as possible
+  # Hiera uses layers of configuration. 
+  # Each layer has its own hierarchy, and they’re linked into one super-hierarchy before doing a lookup.
+  # This configuration file provides layers searched in the following order: global → os → datacenter -> environment -> node 
+  # Hiera searches every data source in the global layer’s hierarchy before checking any source in the os layer.
+  # Production branch example for puppet client: node123.glblblue.ad.pwcinternal.com  results in the following lookup tree:
+  # /etc/puppetlabs/code/environments/production/data/common.yaml
+  # /etc/puppetlabs/code/environments/production/data/RedHat.yaml
+  # /etc/puppetlabs/code/environments/production/data/glblblue.ad.pwcinternal.com.yaml
+  # /etc/puppetlabs/code/environments/production/data/datacenter/common.yaml
+  # /etc/puppetlabs/code/environments/production/data/environment/common.yaml
+  # /etc/puppetlabs/code/environments/production/data/nodes/node123.yaml
+  
+  # Therefore if you want to configure a node specific setting without affecting any other node, 
+  # then modify the node123.yaml file accordingly
