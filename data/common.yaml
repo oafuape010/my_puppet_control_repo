@@ -1,0 +1,54 @@
+---
+pwchieratest::ssl: maybe
+pwchieratest::backups_enabled: true
+
+pwcseccore::allow_ssh_hosts: 'sshd:   10.0.0.0/255.0.0.0'
+
+pwcsplunk::region: 'west'
+pwcsplunk::heavyforwarderahs: '172.21.8.38'
+pwcsplunk::heavyforwardercentral: '10.243.41.22'
+pwcsplunk::heavyforwardereast: '10.138.40.23'
+pwcsplunk::heavyforwarderwest: '10.185.86.68'
+pwcsplunk::package: 'splunkforwarder'
+pwcsplunk::version: '6.6.6'
+#pwcsplunk::version: '7.0.0'
+pwcsplunk::build: 'ff5e72edc7c4'
+#pwcsplunk::build: 'c8a78efdd40f'
+#Check os/<family> for additional splunk settings
+
+# wc:wIDHq2L7muxEJEGfTQAcFK4J
+# cc:4SS43Jzi4X4KTGCysPlu3pkfE
+# ec:CSLped3RUkf7eyThzHEDvwzuA
+# Stage:oAqGpNkFZmkQTJ68ODDm695F
+pwccylance::pidkey: 'wIDHq2L7muxEJEGfTQAcFK4J'
+pwccylance::venuezone: 'WC_HyCS-Servers'
+pwccylance::version: '2.0.1480.24'
+
+# Existing ID for GCOT Linux vms
+pwcqualys::activationid: '{1083ca2c-0616-44aa-9b17-74e3a7b1b363}'
+pwcqualys::customerid: '{b546b3ca-ba5d-53eb-e040-18ac09046184}'
+pwcqualys::winqualys: 'QualysCloudAgent.exe'
+
+pwcflexera::region: 'west'
+pwcflexera::mgssetup: 'mgssetup.ini'
+pwcflexera::bsserver: 'bsserver.res'
+pwcflexera::setupexe: 'setup.exe'
+pwcflexera::cab: 'Data1.cab'
+pwcflexera::setupini: 'Setup.ini'
+pwcflexera::package: 'FlexNetInventoryAgent.msi'
+
+pwccyberark::linuxuser1: 'GLBL_SSH_USER_01'
+pwccyberark::linuxuserid1: '9995'
+pwccyberark::linuxpasswd1: '\$6\$AUtL8Ovh\$8o.IGLQhrUDwZZtcwU4RnCZilmPZCJCgAPlAvhhqoBPnm155b60NQrWG0Vci3tUncd5FRUA0r9iRevCw8I3FJ/'
+pwccyberark::linuxuser2: 'GLBL_SSH_USER_02'
+pwccyberark::linuxuserid2: '9994'
+pwccyberark::linuxpasswd2: '\$6\$m6txlKUW\$SiQST/PSIn4uh4k78hW4x60f..uTZDhdD0AsC8VMke/ziEgXGN7PgrZ2br9HuXn3IFt0FzAP7BudZl3jSyZ.1/'
+pwccyberark::linuxuser3: 'GLBL_SSH_USER_03'
+pwccyberark::linuxuserid3: '9993'
+pwccyberark::linuxpasswd3: '\$6\$drDvi0gY\$Url5t1pHNc/oA91dFj2vj7Bn8wFiHvbdOQs99ehJR0KQuSjG2yTpB7Gp0hSbVgh7yMU4GttEdnRWLKvOSMzme/'
+pwccyberark::winuser1: 'GLBL_RDP_USER_01'
+#pwccyberark::winuserpwd1: 'ChahuPRuch2rApaPra6r'
+pwccyberark::winuserpwd1: 'PRuch2rApaPra1@'
+pwccyberark::winuser2: 'GLBL_RDP_USER_02'
+#pwccyberark::winuserpwd2: '3tawRuQETez74ucefapa'
+pwccyberark::winuserpwd2: 'uQETez74ucefa!@'
