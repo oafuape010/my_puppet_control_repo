@@ -64,12 +64,12 @@ mod 'pwcscom',
 mod 'pwcflexera',
   :git    => 'git@github.pwc.com:Puppet/pwcflexera.git',
   :branch => 'explore_bob'
-mod 'jenkinsariso001a',
-  :git    => 'git@github.pwc.com:Puppet/jenkinsariso001a.git',
-  :branch => 'explore_bob'
-mod 'pwcawscli',
-  :git    => 'git@github.pwc.com:Puppet/pwcawscli.git',
-  :branch => 'explore_bob'
+#mod 'jenkinsariso001a',
+#  :git    => 'git@github.pwc.com:Puppet/jenkinsariso001a.git',
+#  :branch => 'explore_bob'
+#mod 'pwcawscli',
+#  :git    => 'git@github.pwc.com:Puppet/pwcawscli.git',
+#  :branch => 'explore_bob'
 mod 'pwcsplunk',
   :git    => 'git@github.pwc.com:Puppet/pwcsplunk.git',
   :branch => 'explore_bob'
