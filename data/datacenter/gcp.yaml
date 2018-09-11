@@ -1,3 +1,0 @@
----
-pwchieratest::site_alias: 'gcp'
-pwcseccore::allow_ssh_hosts: 'sshd:   10.0.0.0/255.0.0.0 172.31.0.0/255.255.255.0'
